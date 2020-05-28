@@ -1,0 +1,34 @@
+<div class="navbar-tjd">
+  <!-- Logo -->
+    <%= link_to (image_tag "CompanyNameLogo.jpg", alt:"logo", class:'logonav'), root_path, class:"navbar-tjd-brand hidden-sm" %>
+  <!-- Right Navigation -->
+  <div class="navbar-tjd-right hidden-xs ">
+    <%= link_to t(:home), root_path, class:'navbar-tjd-item navbar-tjd-link' %>
+    <%= link_to t(:nosservices), services_path, class:'navbar-tjd-item navbar-tjd-link' %>
+    <%= link_to t(:nosrealisations), realisations_path, class:'navbar-tjd-item navbar-tjd-link' %>
+    <%= link_to t(:contact), contacts_path, class:'navbar-tjd-item navbar-tjd-link' %>
+    <%= link_to (image_tag "FR.png"), { :locale=>'fr' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+    <%= link_to (image_tag "GB.png"), { :locale=>'en' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+    <%= link_to (image_tag "IT.png"), { :locale=>'it' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+  </div>
+
+  <div class="navbar-tjd-right hidden-md hidden-lg hidden-sm ">
+    <%= link_to (image_tag "FR.png"), { :locale=>'fr' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+    <%= link_to (image_tag "GB.png"), { :locale=>'en' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+    <%= link_to (image_tag "IT.png"), { :locale=>'it' }, class:'navbar-tjd-flag navbar-tjd-link' %>
+  </div>
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-tjd-item hidden-md hidden-lg hidden-sm">
+    <div class="dropdown">
+      <i class="fas fa-bars"class="avatar dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" alt="logo"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-tjd-dropdown-menu" aria-labelledby="dropdownMenu1" >
+        <li><%= link_to t(:home), root_path, class:'navbar-tjd-item navbar-tjd-link' %></li>
+        <li><%= link_to t(:nosservices), services_path, class:'navbar-tjd-item navbar-tjd-link' %></li>
+        <li><%= link_to t(:nosrealisations), realisations_path, class:'navbar-tjd-item navbar-tjd-link' %></li>
+        <li> <%= link_to t(:contact), contacts_path, class:'navbar-tjd-item navbar-tjd-link' %></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+

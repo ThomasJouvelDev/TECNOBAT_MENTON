@@ -15,6 +15,17 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+# projet
+gem 'leaflet-rails'
+gem "recaptcha"
+gem 'rails-i18n'
+gem 'cloudinary'
+gem 'coffee-rails'
+gem 'lightbox-bootstrap-rails'
+gem 'popper_js'
+gem 'postmark-rails'
+gem 'letter_opener', group: :development
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

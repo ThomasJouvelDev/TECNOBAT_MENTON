@@ -30,4 +30,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  #Navbar
+  home: "Home"
+  nosservices: "Our Services"
+  nosrealisations: "Our achievements"
+  contact: "Contact"
+  # pied de pages
+  mentionslegales_link: 'Legal Notice'
+  pied: '© 2020 - TECNOBAT - All rights reserved - Thomas Jouvel Dev - '
+  #Contact
+  contact_nous: "CONTACT US"
+  votre_nom: "Your name"
+  votre_email: "Your email"
+  votre_tel: "Your phone number"
+  envoyer: "Send"
+  obligatoire: "Mandatory"
+  optionel: "Optional"
+  votre_message: "Your message..."
+  thanksmail: "Merci, votre message a bien été envoyé !"

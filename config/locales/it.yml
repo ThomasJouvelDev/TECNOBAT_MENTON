@@ -1,0 +1,19 @@
+it:
+  #Navbar
+  home: "Home"
+  nosservices: "Nostri Servizi"
+  nosrealisations: "Nostre Realizzazioni"
+  contact: "Contatto"
+  # pied de pages
+  mentionslegales_link: 'Note legali'
+  pied: '© 2020 - TECNOBAT - Tutti i diritti riservati - Thomas Jouvel Dev - '
+  #Contact
+  contact_nous: "CONTACT US"
+  votre_nom: "Your name"
+  votre_email: "Your email"
+  votre_tel: "Your phone number"
+  envoyer: "Send"
+  obligatoire: "Mandatory"
+  optionel: "Optional"
+  votre_message: "Your message..."
+  thanksmail: "Merci, votre message a bien été envoyé !"
