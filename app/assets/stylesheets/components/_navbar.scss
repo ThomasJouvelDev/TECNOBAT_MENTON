@@ -4,9 +4,9 @@
 }
 .navbar-tjd {
   box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-  background: #FBFEF9;
+  background: #EEEEEE;
   transition: all 0.3s ease;
-  height: 50px;
+  height: 65px;
   padding: 0px 20px;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   top: 0;
   width: 100%;
   border-radius: 0;
-  z-index: 1;
+  z-index: 2;
   border: 1px solid rgba(0, 0, 0, 0.1);
   opacity: 0.72;
   @include md {
@@ -68,12 +68,12 @@
 
 /* Navbar-tjd link */
 .navbar-tjd-link {
-  color: #201F1E;
+  color: #000078;
   font-size: 14px;
   transition: all 0.3s ease;
 }
 .navbar-tjd-link:hover {
-  color: #8C1500;
+  color: #6C809A;
   text-decoration: none;
 }
 

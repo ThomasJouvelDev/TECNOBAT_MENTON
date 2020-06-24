@@ -1,0 +1,29 @@
+#footerinfo {
+  background-color: #6C809A;
+  color: $light-gray;
+  h3 {
+    font-size:22px;
+  }
+  h4 {
+    font-size:19px;
+  }
+}
+.staticmap {
+  min-height:40vh;
+  min-width: 250px;
+  flex-grow:1;
+  z-index:1;
+  border-style: solid;
+  border-width: 5px;
+  border-color:white;
+  margin:20px 0 20px 0;
+  // box-shadow: 3px 3px 13px 4px gray;
+}
+
+.info {
+  margin:20px;
+}
+
+.entreprise {
+  margin:20px;
+}

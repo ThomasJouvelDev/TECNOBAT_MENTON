@@ -14,7 +14,7 @@ module TECNOBATMenton
           generate.test_framework  :test_unit, fixture: false
         end
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.2
+    config.load_defaults 6.0
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.available_locales = [:en, :fr, :it]
     config.i18n.default_locale = :fr

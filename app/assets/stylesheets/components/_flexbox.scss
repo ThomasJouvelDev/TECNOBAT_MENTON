@@ -1,0 +1,30 @@
+.flexbox {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 770px) {
+  .flexbox {
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
+
+@media (min-height: 1300px) {
+
+  .flexbox {
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .flexbox {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .staticmap {
+    width:100%;
+  }
+}
