@@ -26,19 +26,21 @@
 
 .navbar-tjd:hover{
   opacity:1;
+  height:110px;
 }
 
 /* Logo */
 
 .navbar-tjd-brand {
   // flex-grow:1;
+  height:100%
 }
 
 .logonav {
-  height: 55px;
-  @include sm {
-    height: 30px;
-  }
+  height: 100%;
+  // @include sm {
+  //   height: 30px;
+  // }
 }
 
 /* User Avatar */
@@ -68,13 +70,14 @@
 
 /* Navbar-tjd link */
 .navbar-tjd-link {
-  color: #000078;
-  font-size: 14px;
-  transition: all 0.3s ease;
+  color: #201F1E;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
 }
 .navbar-tjd-link:hover {
   color: #6C809A;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-tjd-link:focus {
