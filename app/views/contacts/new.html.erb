@@ -1,9 +1,11 @@
-<div id="banner">
   <div class="navspace"></div>
-  <h1><%= t(:contact_nous) %></h1>
+<div id="banner">
   <div class="flexcontact">
-    <%= image_tag "contact.jpg", alt:"contact door", class:"contactdoor" %>
-    <%= render 'shared/form' %>
+    <%= cl_image_tag("tecnobat/contact", alt:"contact door", class:"contactdoor") %>
+    <div>
+      <h1><%= t(:contact_nous) %></h1>
+      <%= render 'shared/form' %>
+    </div>
   </div>
 
 </div>
