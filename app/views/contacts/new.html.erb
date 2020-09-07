@@ -1,6 +1,9 @@
 <div id="banner">
   <div class="navspace"></div>
   <h1><%= t(:contact_nous) %></h1>
-  <%= render 'shared/form' %>
+  <div class="flexcontact">
+    <%= image_tag "contact.jpg", alt:"contact door", class:"contactdoor" %>
+    <%= render 'shared/form' %>
+  </div>
 
 </div>
