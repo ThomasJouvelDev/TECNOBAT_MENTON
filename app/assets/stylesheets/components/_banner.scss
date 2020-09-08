@@ -37,70 +37,14 @@
   margin-top: -7em;
 }
 
-.homecard {
-  background-color: #f1f1f1;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
-  border-bottom: solid 10px #6C809A;
-  width:230px;
-  height:360px;
-  transition: all 0.3s ease-in-out;
-  h3 {
-    text-align:center;
-  }
-  ul {
-    padding:10px;
-  }
-  li {
-    color: #717171;
-    font-size:17px;
-  }
-}
-
-.servicescard {
-  background-color: #f1f1f1;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
-  border-bottom: solid 10px #6C809A;
-  width:400px;
-  height:540px;
-  transition: all 0.3s ease-in-out;
-  h3 {
-    text-align:center;
-  }
-  ul {
-    padding:20px 10px 10px 40px;
-  }
-  li {
-    color: #717171;
-    font-size:17px;
-  }
-}
-
-.servicescard:hover{
-  transition: all 0.3s ease-in-out;
-  margin-top: 10px;
-}
-
-.homecard:hover{
-  transition: all 0.3s ease-in-out;
-  margin-top: 10px;
-}
-
 .divider {
   width:60px !important;
   border-bottom:solid 5px #6C809A;
   margin: 25px 0 25px 0;
 }
 
-.homeicon {
-  height:70px;
-}
-
-.icon2 {
-  height:90px;
+.dividercenter {
+  width:60% !important;
+  border-bottom:solid 5px #6C809A;
+  margin: 25px auto 25px auto;
 }
