@@ -3,4 +3,5 @@ require("@rails/activestorage").start()
 require("channels")
 
 import "bootstrap";
-import "./map"
+import "./map";
+import "./slider";

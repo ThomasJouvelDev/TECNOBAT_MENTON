@@ -21,4 +21,17 @@
   <h3>La qualité des travaux réalisés repose sur la combinaison de plusieurs facteurs :</h3>
   <p>Qualité du savoir-faire.    -    Compétence des ouvriers.    -    Performance de la coordination   -    Respect des engagements pris.</p>
   <br>
+  <!-- Slider before after  -->
+  <figure class="cd-image-container">
+    <%= image_tag 'img-original.jpg', label:'image avant', class:'sliderimage' %>
+    <span class="cd-image-label" data-type="original">Avant</span>
+
+    <div class="cd-resize-img"> <!-- the resizable image on top -->
+      <%= image_tag 'img-modified.jpg', label:'image après', class:'sliderimage' %>
+      <span class="cd-image-label" data-type="modified">Après</span>
+   </div>
+
+   <span class="cd-handle"></span> <!-- slider handle -->
+  </figure> <!-- cd-image-container -->
+  <br>
 </div>
