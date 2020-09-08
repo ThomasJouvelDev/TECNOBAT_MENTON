@@ -33,8 +33,20 @@
   height:60vh;
 }
 
+#banner3 {
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(asset_path("menton.jpg"));
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50% ;
+  height:60vh;
+}
+
 .offset {
   margin-top: -7em;
+}
+
+.offsetbis {
+  margin-top: -13em;
 }
 
 .divider {
