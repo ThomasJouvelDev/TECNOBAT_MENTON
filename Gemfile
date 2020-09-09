@@ -21,7 +21,6 @@ gem "recaptcha"
 gem 'rails-i18n'
 gem 'cloudinary'
 gem 'coffee-rails'
-gem 'lightbox-bootstrap-rails'
 gem 'popper_js'
 gem 'postmark-rails'
 gem 'letter_opener', group: :development

@@ -133,7 +133,6 @@ GEM
       rails (>= 4.2.0)
     letter_opener (1.7.0)
       launchy (~> 2.2)
-    lightbox-bootstrap-rails (5.1.0.1)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -261,7 +260,6 @@ DEPENDENCIES
   jbuilder
   leaflet-rails
   letter_opener
-  lightbox-bootstrap-rails
   listen
   pg
   popper_js
