@@ -19,6 +19,13 @@ module TECNOBATMenton
     config.i18n.available_locales = [:en, :fr, :it]
     config.i18n.default_locale = :fr
 
+    config.action_mailer.delivery_method = :postmark
+
+    config.action_mailer.postmark_settings = {
+      api_token: Rails.application.credentials.postmark_api_token
+    }
+    config.action_mailer.default_url_options = { host: "tecnobat.herokuapp.com/" }
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
