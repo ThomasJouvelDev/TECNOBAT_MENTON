@@ -28,7 +28,12 @@
   opacity:1;
   height:110px;
 }
-
+@media (hover: none) {
+  .navbar-tjd:hover{
+    opacity:1;
+    height:65px;
+  }
+}
 /* Logo */
 
 .navbar-tjd-brand {

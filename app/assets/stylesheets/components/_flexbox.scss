@@ -23,6 +23,10 @@
 //   }
 // }
 @media (max-width: 770px) {
+  .flexcontact {
+    flex-direction: column;
+    width: 100% !important;
+  }    
   .flexbox {
     flex-direction: column;
     width: 100% !important;
@@ -34,6 +38,10 @@
 
 
 @media (max-width: 580px) {
+  .flexcontact {
+    flex-direction: column;
+    width: 100% !important;
+  }    
   .flexbox {
     flex-direction: column;
     width: 100% !important;

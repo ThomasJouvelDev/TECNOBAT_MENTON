@@ -150,3 +150,9 @@
 .sliderimage {
   max-width: 768px;
 }
+
+@media (hover: none) {
+  .slider-d {
+    display:none;
+  }
+}

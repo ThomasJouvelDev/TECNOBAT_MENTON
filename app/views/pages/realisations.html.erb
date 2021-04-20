@@ -22,17 +22,19 @@
   <p>Qualité du savoir-faire.    -    Compétence des ouvriers.    -    Performance de la coordination   -    Respect des engagements pris.</p>
   <br>
   <!-- Slider before after  -->
-  <figure class="cd-image-container">
-    <%= image_tag 'img-original.jpg', label:'image avant', class:'sliderimage' %>
-    <span class="cd-image-label" data-type="original">Avant</span>
+  <div class="slider-d">
+    <figure class="cd-image-container">
+      <%= image_tag 'img-original.jpg', label:'image avant', class:'sliderimage' %>
+      <span class="cd-image-label" data-type="original">Avant</span>
 
-    <div class="cd-resize-img"> <!-- the resizable image on top -->
-      <%= image_tag 'img-modified.jpg', label:'image après', class:'sliderimage' %>
-      <span class="cd-image-label" data-type="modified">Après</span>
-   </div>
+      <div class="cd-resize-img"> <!-- the resizable image on top -->
+        <%= image_tag 'img-modified.jpg', label:'image après', class:'sliderimage' %>
+        <span class="cd-image-label" data-type="modified">Après</span>
+     </div>
 
-   <span class="cd-handle"></span> <!-- slider handle -->
-  </figure> <!-- cd-image-container -->
+     <span class="cd-handle"></span> <!-- slider handle -->
+    </figure> <!-- cd-image-container -->
+  </div>
   <br>
   <%= link_to "https://res.cloudinary.com/ddeqhkybg/image/upload/v1588856141/Bourdiec06/banniere.png", class:"button2 btn", data: { lightbox: 'chantier1'} do %>
     <span><%= t(:photos) %></span>
