@@ -7,6 +7,12 @@
   h4 {
     font-size:19px;
   }
+  a {
+    color: $light-gray;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 .staticmap {
   min-height:40vh;
