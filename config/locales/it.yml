@@ -4,6 +4,7 @@ it:
   nosservices: "Nostri Servizi"
   nosrealisations: "Nostre Realizzazioni"
   contact: "Contatto"
+  photos: "Photos"
   # pied de pages
   mentionslegales_link: 'Note legali'
   pied: '© 2020 - TECNOBAT - Tutti i diritti riservati - Thomas Jouvel Dev - '
